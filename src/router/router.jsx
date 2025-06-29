@@ -3,15 +3,13 @@ import App from '../pages/App';
 import About from '../pages/About';
 import Company from '../pages/home';
 import RootLayout from '../pages/RootLayout';
+import PostList from '../pages/PostList';
 export const rootRouter = createBrowserRouter([
     {path: '/', element: <RootLayout/>,
         children: [
-
             {path: '/about', element: <About />},
-            {path: '/home', element: <Company/>}
-
-    
-
+            {path: '/home', element: <Company/>},
+            {path: '/posts', element: <PostList/>}
     ]},
     // {path: '/', element: <App /> }, //element er vitore jekono jsx likhe pari
     
