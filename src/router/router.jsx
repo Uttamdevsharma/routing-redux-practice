@@ -12,7 +12,7 @@ export const rootRouter = createBrowserRouter([
             {path: '/about', element: <About />},
             {path: '/home', element: <Company/>},
             {path: '/posts', element: <PostList/>},
-            {path: '/posts/:postId', element: <PostDetails/>},
+            {path: '/posts/:id', element: <PostDetails/>}
     ]},
     // {path: '/', element: <App /> }, //element er vitore jekono jsx likhe pari
     
