@@ -10,7 +10,9 @@ const PostList = () => {
            .then ((res) => res.json())
            .then ((data) => setPosts(data))
     },[])
+
   return (
+    
     <>
     <h2>All Posts</h2>
     <ul> 
