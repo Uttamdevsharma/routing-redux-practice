@@ -19,6 +19,7 @@ const Company = () => {
       </ul>
     </section>
   );
+  
 };
 
 export default Company;
